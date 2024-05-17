@@ -1,0 +1,7 @@
+CompileFlags:
+    Add:
+        - "-I../lib/raylib/src/"
+        - "-std=c99"
+        - -Wall
+        - -Wextra
+        - -Wpedantic
