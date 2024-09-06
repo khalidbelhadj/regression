@@ -137,8 +137,8 @@ void draw_mse_lines(Regression r) {
         double pred_y = r.w * r.xs[i] + r.b;
         Vector2 pred_pos = get_point_pos(r.xs[i], pred_y, r);
         Vector2 pos = get_point_pos(r.xs[i], r.ys[i], r);
-        DrawLineEx((Vector2){pred_pos.x, pred_pos.y}, (Vector2){pos.x, pos.y},
-                   3.0, BLACK);
+        DrawLineEx((Vector2){pred_pos.x - 1, pred_pos.y}, (Vector2){pos.x - 1, pos.y},
+                   2.0, BLACK);
     }
 }
 
@@ -195,9 +195,9 @@ int main(void) {
 
             draw_axis();
             draw_line(r);
-            draw_points(r);
             draw_mse_squares(r);
-            draw_mse_lines(r);
+            // draw_mse_lines(r);
+            draw_points(r);
             draw_stats(r);
 
             // Start screen
