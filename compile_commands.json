@@ -1,0 +1,52 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c11",
+      "-I./lib/raylib/src/",
+      "-I./lib/raygui/src/",
+      "-framework",
+      "Cocoa",
+      "-framework",
+      "OpenGL",
+      "-framework",
+      "IOKit",
+      "-o",
+      "build/main",
+      "src/main.c"
+    ],
+    "directory": "/Users/khalid/Developer/regression",
+    "file": "/Users/khalid/Developer/regression/src/main.c",
+    "output": "/Users/khalid/Developer/regression/build/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/clang",
+      "-c",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "-std=c11",
+      "-I./lib/raylib/src/",
+      "-I./lib/raygui/src/",
+      "-framework",
+      "Cocoa",
+      "-framework",
+      "OpenGL",
+      "-framework",
+      "IOKit",
+      "-o",
+      "build/main",
+      "src/regression.c"
+    ],
+    "directory": "/Users/khalid/Developer/regression",
+    "file": "/Users/khalid/Developer/regression/src/regression.c",
+    "output": "/Users/khalid/Developer/regression/build/main"
+  }
+]

@@ -1,3 +1,4 @@
 /build/*
-/lib/raylib
+/lib/*
 .DS_Store
+.cache
