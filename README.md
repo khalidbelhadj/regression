@@ -20,6 +20,9 @@ The derivatives of the loss with respect to $\mathbf{w}$ and $b$ are
 
 $$
 \frac{\partial}{\partial \mathbf{w}}L_{MSE} = \frac{-2}{n} \sum_{i = 1}^n x_i(y_i - \hat{y}_i) \\
+$$
+
+$$
 \frac{\partial}{\partial b}L_{MSE} = \frac{-2}{n} \sum_{i = 1}^n (y_i - \hat{y}_i)
 $$
 
